@@ -1,0 +1,14 @@
+:root { --navy:#193441; --deep:#0F2430; --cream:#FFF2D5; --gold:#FFC447; --teal:#2E8379; --coral:#EF795D; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--cream); color: var(--navy); font: 17px/1.6 "Nunito Sans", system-ui, sans-serif; }
+header { background: var(--navy); color: var(--cream); padding: 28px 20px; text-align: center; }
+header img { width: 96px; height: 96px; border-radius: 22px; box-shadow: 0 6px 18px rgba(0,0,0,.35); }
+header h1 { font-family: "Fredoka", system-ui, sans-serif; font-weight: 600; margin: 12px 0 4px; font-size: 32px; }
+header p { margin: 0; color: var(--gold); }
+nav { text-align: center; padding: 10px; background: var(--deep); }
+nav a { color: var(--cream); margin: 0 12px; text-decoration: none; font-weight: 700; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+h2 { font-family: "Fredoka", system-ui, sans-serif; font-weight: 600; color: var(--teal); margin-top: 32px; }
+.card { background: #fff8e8; border: 3px solid var(--navy); border-radius: 18px; padding: 16px 20px; margin: 18px 0; }
+a { color: var(--teal); }
+footer { text-align: center; font-size: 14px; padding: 24px 16px; color: rgba(25,52,65,.7); }
